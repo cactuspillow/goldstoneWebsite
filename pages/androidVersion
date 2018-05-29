@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+  <title>Android</title>
+  <meta content ="GoldStone Wallet - Android Version" name ="description">
+  <meta name ="keywords" content ="GolStone, Wallet, ETH, Ethereum, Crypto Currency, Bitcoin, EOS, LTC, Blockchain">
+  <!-- 支持utf-8 -->
+  <meta charset ="utf-8">
+  <!-- 是否启动webapp功能，会删除默认的苹果工具栏和菜单栏 -->
+  <meta name ="apple-mobile-web-app-capable" content ="yes" />
+  <!-- 禁用用户手动缩放手势 -->
+  <meta name ="viewport" content ="width=device-width, user-scalable=no">
+  <!-- 设置webapp的icon -->
+  <link rel ="apple-touch-icon-precomposed" href ="logo.png" />
+  <!-- Disable tap highlight on IE -->
+  <meta name ="msapplication-tap-highlight" content ="no">
+  <!-- 对于IE浏览器，使用最新的浏览器模式浏览内容。 -->
+  <meta http-equiv ="X-UA-Compatible" content ="IE=edge,chrome=1">
+  <!-- Web Application Manifest -->
+  <link rel ="manifest" href ="manifest.json">
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name ="mobile-web-app-capable" content ="yes">
+  <meta name ="application-name" content ="鬼畜输入法">
+  <link rel ="icon" sizes ="192x192" href ="images/touch/chrome-touch-icon.png">
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name ="apple-mobile-web-app-capable" content ="yes">
+  <meta name ="apple-mobile-web-app-status-bar-style" content ="black-translucent">
+  <meta name ="apple-mobile-web-app-title" content ="GoldStone">
+  <link rel ="apple-touch-icon" href ="images/touch/apple-touch-icon.png">
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name ="msapplication-TileImage" content ="images/touch/ms-touch-icon.png">
+  <meta name ="msapplication-TileColor" content ="#2F3BA2">
+  <!-- Color the status bar on mobile devices -->
+  <meta name ="theme-color" content ="#3AB54A">
+  <!-- 设置CSS文件指向 -->
+  <link rel ="stylesheet" href ="styles/main.css" type ="text/css" media ="all">
+  <link rel ="stylesheet" href ="styles/conditions.css" type ="text/css" media ="all">
+<!-- 引用mini js -->
+  <script src ="scripts/jquery-2.2.0.min.js" type ="text/javascript"></script>
+</head>
+
+<body class = "cursorDefault disableDefaultAction">
+  <div class ="container">
+    <header>
+      <div class ="appIcon">
+      <h2 class ="appName">G O L D S T O N E</h2>
+    </header>
+
+    <main class ="main">
+      <div class ="headerBlock">
+        <h1 class ="headerTitle">Android</h3>           
+      </div>
+      
+      <div class ="conditionBlock">
+        <h3 class ="subtitle">Latest Version: Beta 0.9.5</h3>
+        <p class ="contentText attentionText">
+          Update at:  18 May 2018
+        </p>
+        <h4 class="thirdOrderTitle">What's New:</h4>
+        <p class ="contentText attentionText">
+          Support Ethereum Chain
+        </p>
+        <p class ="contentText attentionText">
+          Safe Manage your account
+        </p>
+        <p class ="contentText bulletContent">       
+          •  Support BIP32, BIP39, BIP44
+        </p>
+        <p class ="contentText bulletContent">       
+          •  Create a brand new address from Goldstone.
+        </p>
+        <p class ="contentText bulletContent">       
+          •  Import your old account by mnomenics, private key or keystore.
+        </p>
+        <p class ="contentText bulletContent">       
+          •  You can check balance of ETH and all of your ERC 20 Tokens.
+        </p>
+        <p class ="contentText bulletContent">       
+          •  You can send and receive of ETH and all of your ERC 20 Tokens.
+        </p>
+        <p class ="contentText bulletContent">       
+          •  Export your account as keystore or private key.
+        </p>
+
+
+        <p class ="contentText attentionText">
+          Manage your assets
+        </p>
+        <p class ="contentText bulletContent">       
+          •  Get to know timely coin and tokens' price in Goldstone
+        </p>
+
+        <p class ="contentText bulletContent">       
+          •  you can check balance of ETH and all of your ERC 20 Tokens.
+        </p>
+
+        <p class ="contentText attentionText">
+          Observe A Address
+        </p>
+        <p class ="contentText bulletContent">       
+          •  You can observe a Ethereum account by importing address, keep your private key clean and safe.
+        </p>
+        <p class ="contentText bulletContent">       
+          •  When you observe the address, you cannot transfer without
+        </p>
+
+        <p class ="contentText bulletContent">       
+          •  you can check balance of ETH and all of your ERC 20 Tokens.
+        </p>
+      </div>
+      
+      <div class ="conditionBlock">
+        <h3 class ="subtitle">Version: Beta 0.8.5</h3>
+        <p class ="contentText attentionText">
+          Update at:  16 May 2018
+        </p>
+        <p class ="contentText">
+          This is a beta version for ropsten network.
+        </p>
+      </div>
+      
+
+    </main>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+html,
+body {
+  font-family: 'englishFont', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333F50;
+}
+
+body.disableDefaultAction {
+
+  /*禁止显示touch选中效果*/
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  unselectable: IE/Opera,
+  -moz-user-select: FireFox,
+  onselectstart: IE/Safari,
+  -webkit-user-select:Chrome;
+}
+
+.attentionText {
+ font-weight: 900;
+}
+
+header {
+  float: left;
+  width: 100%;
+}
+
+.main {
+  float: left;
+  width: 100%;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.cursorDefault {
+  cursor: default;
+}
+
+.noTouchStyleOnMobileDevice {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*自定义字体*/
+
+@font-face {
+  font-family: 'englishFont';
+  src: url('../fonts/english-font-bold.eot') format('eot'),
+  url('../fonts/english-font-bold.ttf') format('ttf'),
+  url('../fonts/english-font-bold.woff') format('woff'),
+  url('../fonts/english-font-bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'englishFont';
+  src: url('../fonts/english-font-light.eot') format('eot'),
+  url('../fonts/english-font-light.ttf') format('ttf'),
+  url('../fonts/english-font-light.woff') format('woff'),
+  url('../fonts/english-font-light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'englishFont';
+  src: url('../fonts/english-font-bolder.eot') format('eot'),
+  url('../fonts/english-font-bolder.ttf') format('ttf'),
+  url('../fonts/english-font-bolder.woff') format('woff'),
+  url('../fonts/english-font-bolder.svg') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}

@@ -1,0 +1,138 @@
+.downloadButton {
+	float: left;
+	margin: 40px calc(50% - 85px);
+	width: 170px;
+	height: 50px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+  outline: 0;
+}
+
+.downloadMainButton {
+	margin: 0;
+	background-color: #2AB96C;
+
+}
+
+.downloadButtonTitle {
+	margin-top: 11px;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	font-weight: 700;
+}
+
+.downloadMainButton:hover {
+	margin-top: 1px;
+}
+.downloadMainButton:active {
+	margin-top: 2px;	
+}
+
+.ButtonShadow {
+	position: absolute;
+	z-index: -20;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.versionDescription {
+	float: left;
+	margin-top: -10px;
+	width: 100%;
+}
+
+.smallTitle {
+	margin: 0px 30px 0px 30px;
+	font-size: 15px;
+	text-align: center;
+	color: #000;
+	font-weight: 700
+}
+
+.singleFeatureElement {
+	float: left;
+	padding: 0px calc(50% - 55px) 0px calc(50% - 55px);
+	width: 110px;
+}
+
+.getDownloadIcon {
+	margin-left: 30px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	border-radius: 55px;
+	background-position: center;
+	border-width: 2px;
+	border-color: #000
+}
+
+.getDownloadText {
+	margin: 0px 30px 0px 30px;
+	font-size: 14px;
+	text-align: center;
+	color: #2AB96C;
+}
+
+.getDownloadText:hover {
+	color: #1ACFFF;
+}
+
+.getDownloadText:active {
+	color: #1ACFFF;
+}
+
+.footerText {
+	margin: 0px 30px 0px 30px;
+	font-size: 12px;
+	text-align: center;
+	color: #000;
+}
+
+.footerElement {
+	float: left;
+	margin: 0px calc(50% - 50px) 0px calc(50% - 50px);
+	width: 100px;
+}
+
+.footerIcon {
+	height: 60px;
+	margin: 20px;
+	background-repeat: no-repeat;
+	border-radius: 100px;
+	background-position: center;
+	background-color: #000
+}
+
+
+/* -----这里是引用的资源图片----- */
+
+.elegantIcon {
+	background-size: 60% 60%;
+	background-image: url('../images/assets/elegant_icon.png')
+}
+
+.easyIcon {
+	background-size: 55% 55%;
+	background-image: url('../images/assets/easy_icon.png')
+}
+
+.observeIcon {
+	background-size: 50% 50%;
+	background-image: url('../images/assets/market_icon.png')
+}
+
+.fingerIcon {
+	background-size: 50% 50%;
+	background-image: url('../images/assets/finger_icon.png')
+}
+
+.teamIcon {
+	background-size: 60% 60%;
+	background-image: url('../images/assets/blink_icon.png');
+}
+
+.emailIcon {
+	background-size: 40% 40%;
+	background-image: url('../images/assets/contact_icon.png')
+}

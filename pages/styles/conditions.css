@@ -1,0 +1,70 @@
+
+.container {
+	float: left;
+	margin: 30px 20px 60px 20px;
+}
+
+.conditionBlock {
+	float: left; 
+	margin-top: 10px;
+	width: 100%
+}
+
+.signatureBlock {
+	float: left;
+	margin-top: 20px;
+	width: 100%
+}
+
+.appIcon {
+	float: left;
+	margin: 0 auto;
+	width: 26px;
+	height: 26px;
+	background-image: url('../images/goldstone-1.png');
+	background-repeat: none;
+	background-size: 100% 100%;
+}
+
+.appName {
+	margin-left: 36px;
+	margin-top: 0;
+ 	width: 100% - 36px;
+	font-size: 18px;
+	font-weight: normal;
+	white-space : nowrap;
+	color: #425460
+}
+
+.headerTitle {
+	margin-top: 100px;
+	margin-bottom: 0px;
+	font-size: 30px;
+	font-weight: bold
+}
+
+.subTitle {
+	font-size: 20px;
+	font-weight: bold
+}
+
+.thirdOrderTitle{
+	font-size: 16px;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+
+.contentText {
+	font-size: 14px;
+	font-weight: 100
+}
+
+.bulletContent {
+	margin: 0;
+}
+
+
+.signature {
+	font-size: 14px;
+	font-weight: 100	
+}
